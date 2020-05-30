@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="单例模式"
+        android:id="@+id/btn_dan"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="工厂模式"
+        android:layout_below="@id/btn_dan"
+        android:id="@+id/btn_gong"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="模板模式"
+        android:layout_below="@id/btn_gong"
+        android:id="@+id/btn_mo"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="构建者模式"
+        android:layout_below="@id/btn_mo"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
