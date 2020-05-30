@@ -8,6 +8,9 @@ public class FootBall extends Game {
         Log.e("TAG","FootBall inilialize");
     }
 
+    /**
+     * 骨灰级的法国
+     */
     @Override
     void startGame() {
         Log.e("TAG","FootBall startGame");
